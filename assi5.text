@@ -1,6 +1,10 @@
-a = int(input("Enter a"))
-b = int(input("Enter b"))
-if(a%b==0):
-    print("b divides a")
-else:
-    print("b does not divides a")
+import math
+class Calculator: 
+  def add(self, a, b):
+    return a+b
+  def subtract(self, a, b):
+    return a-b
+  def squareRoot(self, a):
+    return math.sqrt(a)
+  def multiply(a, b):
+    return a*b
